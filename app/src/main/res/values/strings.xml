@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">BackgroundServices</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="add_geofences">Se agregaron los geofences</string>
+    <string name="remove_geofences">Se quitaron geofences</string>
+
+    <!-- Transition type strings -->
+    <string name="geofence_transition_entered">Entraste</string>
+    <string name="geofence_transition_exited">Saliste</string>
+    <string name="unknown_geofence_transition">Transición desconocida</string>
+
+    <!-- Error strings -->
+    <string name="not_connected">GoogleApiClient aún no está conectado. Inténtalo de nuevo.</string>
+    <string name="geofence_not_available">El servicio Geofence no está disponible ahora</string>
+    <string name="geofence_too_many_geofences">Tu aplicación ha registrado demasiadas geofences</string>
+    <string name="geofence_too_many_pending_intents">
+        Ha proporcionado demasiados contactos pendientes a la llamada addGeofences()
+    </string>
+    <string name="unknown_geofence_error">
+        Error desconocido: el servicio Geofence no está disponible ahora
+    </string>
+    <string name="geofence_transition_invalid_type">
+        Error de transición de Geofence: tipo de transición no válida% 1 $ d
+    </string>
+    <string name="geofence_transition_notification_text">Haga clic en notificación para volver a la aplicación</string>
+</resources>
