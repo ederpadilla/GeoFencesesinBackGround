@@ -24,6 +24,7 @@
         </activity>
         <service android:name=".BackgroundService"
             android:exported="false"/>
+        <service android:name=".geofencing.GeofenceTransitionsIntentService"/>
     </application>
 
 </manifest>
